@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f0f3;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+h1#tituloprincipal {
+    color: #aa5ba3;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background-color: #fad3ee;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(196, 123, 190, 0.15);
+}
+
+#mensagem {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e7effc;
+    margin-bottom: 20px;
+    padding: 14px 20px;
+    border-left: 6px solid #a1c4fd;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+    margin: 25px auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul img {
+    display: block;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px rgba(161, 196, 253, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+table caption,
+h3 {
+    caption-side: top;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #9976c8;
+}
+
+table th,
+table td {
+    border: 1px solid #d3d9ff;
+    padding: 14px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+table th {
+    background-color: #d9e4ff;
+    font-weight: 700;
+}
+
+table td img {
+    border-radius: 12px;
+    max-height: 200px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #c47bbe;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #8a529e;
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    margin: 40px auto 0;
+    padding: 14px 28px;
+    font-size: 16px;
+    background-color: #c47bbe;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(196, 123, 190, 0.3);
+}
+
+button:hover {
+    background-color: #8a529e;
+}
